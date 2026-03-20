@@ -174,6 +174,24 @@ Top co-resistance pairs identified from real data:
    consistent with known links between animal slaughter and resistance spread
 
 ---
+---
+
+## 🧪 Dataset Merging Experiment
+
+We attempted to augment the primary Mendeley dataset (274 isolates)
+with the secondary Kaggle Multi-Resistance dataset (9,957 records).
+
+| Approach | Dataset Size | CV F1 |
+|----------|-------------|-------|
+| Mendeley only | 274 isolates | **0.735** ← best |
+| Merged (loose cleaning) | 10,231 isolates | 0.675 |
+| Merged (strict cleaning) | 448 isolates | 0.552 |
+
+**Conclusion:** Dataset quality outweighs dataset quantity for AMR
+prediction. The Mendeley dataset with standardised CLSI breakpoints
+produces superior results despite its smaller size. The secondary
+dataset's inconsistent labelling conventions and noise reduced
+model performance across all approaches tested.
 
 ## 🛠️ Tech Stack
 
