@@ -1,5 +1,9 @@
 import os
-os.chdir(r'C:\Users\raghu\track_b_amr')
+from pathlib import Path
+
+# Works both locally and on Streamlit Cloud
+BASE_DIR = Path(__file__).parent.parent
+os.chdir(BASE_DIR)
 
 import streamlit as st
 import pandas as pd
