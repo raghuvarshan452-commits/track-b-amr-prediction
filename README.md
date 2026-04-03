@@ -5,6 +5,7 @@
 ![ML](https://img.shields.io/badge/Model-Random%20Forest-green)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+[![Launch App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://antibiotic-resistance-prediction.streamlit.app)
 
 ---
 
