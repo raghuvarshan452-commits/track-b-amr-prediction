@@ -6,5 +6,4 @@
 notebooks/.ipynb_checkpoints/
 notebooks/figures/
 notebooks/models/
-*.pkl
 .DS_Store
